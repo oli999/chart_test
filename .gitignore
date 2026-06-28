@@ -1,0 +1,8 @@
+
+# 1. 일단 프로젝트 전체에서 압축파일과 인덱스 파일은 무시해라!
+*.tgz
+index.yaml
+
+# 2. 단, docs/ 폴더 안에 생기는 녀석들은 예외로 
+!docs/*.tgz
+!docs/index.yaml
