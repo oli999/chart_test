@@ -9,7 +9,7 @@ entries:
     name: member-app
     type: application
     urls:
-    - https://myoli999.github.io/chart_test/member-app-0.1.1.tgz
+    - https://oli999.github.io/chart_test/member-app-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
@@ -19,6 +19,6 @@ entries:
     name: member-app
     type: application
     urls:
-    - https://myoli999.github.io/chart_test/member-app-0.1.0.tgz
+    - https://oli999.github.io/chart_test/member-app-0.1.0.tgz
     version: 0.1.0
 generated: "2026-06-28T18:45:10.285372232+09:00"
