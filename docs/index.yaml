@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   member-app:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2026-06-28T18:45:10.285992641+09:00"
+    description: A Helm chart for the Member Node.js Application
+    digest: 26dbb8b5c8c00f0c88581da4a5163ab4c30e5b2355d8c5bcea8cd70e8d07efe7
+    name: member-app
+    type: application
+    urls:
+    - https://myoli999.github.io/chart_test/member-app-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-06-28T18:35:59.248117601+09:00"
+    created: "2026-06-28T18:45:10.285864661+09:00"
     description: A Helm chart for the Member Node.js Application
     digest: dd3882a11a95a1c05f5cbdf6032fa74ebb71f253e8412d3596ab3810781a71c1
     name: member-app
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://myoli999.github.io/chart_test/member-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-28T18:35:59.247860353+09:00"
+generated: "2026-06-28T18:45:10.285372232+09:00"

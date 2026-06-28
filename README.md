@@ -30,7 +30,7 @@ git push -u origin master
 mkdir docs
 
 # 2. 헬름 차트를 압축해서 docs 폴더에 넣습니다. (member-app-1.0.0.tgz 같은 파일이 생성됨)
-helm package helm01_member -d docs/
+helm package charts/helm01_member -d docs/
 
 # 3. 🌟 가장 중요한 명령어! 헬름 저장소의 핵심인 '명세서(index.yaml)'를 생성합니다.
 # 뒤에 붙는 URL은 내 깃허브 페이지의 "최종 웹 주소"가 될 곳을 미리 적어주는 것입니다!
